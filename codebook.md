@@ -25,30 +25,30 @@ Submission by Yaxin Zhang
 ###
 # Variables
 ###
-* The below 8 variables all are direct data imports from the TXT file extracted from the ZIP folder, provided by the course. 
-* features
-* activity_label 
-* subject_test 
-* x_test 
-* y_test 
-* subject_train 
-* x_train 
-* y_train 
-
-
-* subject_all - merge of test and train files for subjects
-* features_all - merge of test and train files for features (x)
-* activity_all - merge of test and train files for activity (y)
-* data_all - the full data, from which data massaging functions are run against for the final tidy data extract
-
-
-* mean_std_getid - stores the column indices matching "mean" or "std" 
-* mean_std_getid_final - used to store the concactenated mean_std_getid with the subject and activity columns
-* mean_std_data_extract - subset of data based on column indices in mean_std_getid_final
-
-
-* col_num - total number of columns in mean_std_data_extract
-* final_tidydata_set - final tidy data set with the average of each variable for each activity and subject
+  The below 8 variables all are direct data imports from the TXT file extracted from the ZIP folder, provided by the course. 
+  features
+  activity_label 
+  subject_test 
+  x_test 
+  y_test 
+  subject_train 
+  x_train 
+  y_train 
+  
+  
+  Subject_all - merge of test and train files for subjects
+  features_all - merge of test and train files for features (x)
+  activity_all - merge of test and train files for activity (y)
+  data_all - the full data, from which data massaging functions are run against for the final tidy data extract
+  
+  
+  mean_std_getid - stores the column indices matching "mean" or "std" 
+  mean_std_getid_final - used to store the concactenated mean_std_getid with the subject and activity columns
+  mean_std_data_extract - subset of data based on column indices in mean_std_getid_final
+  
+  
+  col_num - total number of columns in mean_std_data_extract
+  final_tidydata_set - final tidy data set with the average of each variable for each activity and subject
 
 
 ###
