@@ -1,7 +1,6 @@
----
 # Peer-graded Assignment: Getting and Cleaning Data Course Project
 Submission by Yaxin Zhang
----
+
 
 # Assignment details:
 #####
@@ -16,11 +15,11 @@ Submission by Yaxin Zhang
 ###
 # Identifiers
 ###
-functions - type of measurement taken, header values
-num - function id within the file, numerical value
-activity - action performed within the study
-id - activity id within the file, numerical value
-subject - id entry of the subject
+* functions - type of measurement taken, header values
+* num - function id within the file, numerical value
+* activity - action performed within the study
+* id - activity id within the file, numerical value
+* subject - id entry of the subject
 
 
 ###
@@ -36,14 +35,17 @@ subject - id entry of the subject
 * x_train 
 * y_train 
 
+
 * subject_all - merge of test and train files for subjects
 * features_all - merge of test and train files for features (x)
 * activity_all - merge of test and train files for activity (y)
 * data_all - the full data, from which data massaging functions are run against for the final tidy data extract
 
+
 * mean_std_getid - stores the column indices matching "mean" or "std" 
 * mean_std_getid_final - used to store the concactenated mean_std_getid with the subject and activity columns
 * mean_std_data_extract - subset of data based on column indices in mean_std_getid_final
+
 
 * col_num - total number of columns in mean_std_data_extract
 * final_tidydata_set - final tidy data set with the average of each variable for each activity and subject
